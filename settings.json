@@ -6,8 +6,8 @@
     },
 
     "server":{
-        "ip": "server-minigames.gq",
-        "port": 25565,
+        "ip": "ult11.falix.gg",
+        "port": 36723,
         "version": "1.12.2"
     },
 
