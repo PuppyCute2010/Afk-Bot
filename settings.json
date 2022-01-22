@@ -1,14 +1,14 @@
 {
     "bot-account":{ 
-        "username": "bot",
+        "username": "Bot",
         "password": "",
-        "type": "mojang"
+        "type": ""
     },
 
     "server":{
-        "ip": "localhost",
+        "ip": "server-minigames.gq",
         "port": 25565,
-        "version": "1.17.1"
+        "version": "1.12.2"
     },
 
     "position":{
@@ -20,29 +20,26 @@
 
     "utils":{
         "auto-auth":{
-            "enabled": false,
-            "password": "12345678"
+            "enabled": true,
+            "password": "123456789-bot"
         },
 
         "anti-afk":{
-            "enabled": false,
+            "enabled": true,
             "sneak": false
         },
 
         "chat-messages":{
-            "enabled": false,
+            "enabled": true,
             "repeat": true,
-            "repeat-delay": 60,
+            "repeat-delay": 120,
 
             "messages": [
-                "I'm a regular player ", 
-                "My owner is urFate_ ", 
-                "I want be alone ", 
-                "Visit my GitHub page! (urFate/Afk-Bot)"
+                "I a Bot", 
             ]
         },
 
         "chat-log": true,
-        "auto-reconnect": false
+        "auto-reconnect": true
     }
 }
